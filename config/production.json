@@ -1,6 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://solon:solon1423@cluster0-vasyd.mongodb.net/DevConnector?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken",
-  "githubClientId": "60c6868dd5c98c3d8c1b",
-  "githubSecret": "36f73f9c510d3b2774fbd2247c188e8554794229"
-}
