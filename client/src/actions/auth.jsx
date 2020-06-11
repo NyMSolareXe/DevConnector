@@ -13,6 +13,12 @@ export const loadUser = () => async (dispatch) => {
   try {
     const res = await axios.get('/api/auth')
 
+    if (res.data.error === 'TokenFail') {
+      return dispatch({
+        type: AUTH_ERROR,
+      })
+    }
+
     dispatch({
       type: USER_LOADED,
       payload: res.data,
